@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/front.png" />
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="cvs" width="450" height="450"></canvas>
+      <div class="options">
+        <h1>Jogo da Velha</h1>
+
+        <h2 id="colorH2">Oponente</h2>
+        <div class="testClass">
+          <div class="computer">Computador</div>
+          <div class="friend">Amigo</div>
+        </div>
+
+        <h2 id="colorH2">Lado</h2>
+        <div  class="testClass">
+          <div class="x">Herói</div>
+          <div class="o">Vilão</div>
+        </div>
+
+        <div class="play">Jogar!</div>
+      </div>
+      <div class="gameover hide"></div>
+    </div>
+
+    <script src="options.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
